@@ -96,7 +96,7 @@
         <h2>Login</h2>
         <form id="loginForm" onsubmit="return validateForm()">
             <div class="input-group">
-                <label for="username">Username or email adress:</label>
+                <label for="username">Username or email address:</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="input-group">
@@ -122,7 +122,7 @@
             }
 
             // Simple username and password validation
-            if (username !== "Motho Batho" || password !== "password") {
+            if (username !== "Motho Batho" || password !== "p@ssworD1") {
                 errorMessage.textContent = "Invalid username or password.";
                 return false; // Prevent form submission
             }
