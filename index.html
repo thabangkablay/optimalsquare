@@ -84,6 +84,25 @@
             color: red;
             font-size: 14px;
         }
+
+        .signup-text {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .signup-btn {
+            background: none;
+            color: #6c72ff;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .signup-btn:hover {
+            color: #101935;
+        }
     </style>
 </head>
 <body>
@@ -106,6 +125,10 @@
             <button type="submit" class="login-btn">Login</button>
         </form>
         <div id="error-message"></div>
+        <div class="signup-text">
+            Don't have an account? 
+            <button class="signup-btn" onclick="window.location.href='signup.html'">Sign up</button>
+        </div>
     </div>
 
     <script>
